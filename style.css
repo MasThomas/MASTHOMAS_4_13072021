@@ -702,6 +702,9 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 h2 {
@@ -1039,4 +1042,10 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.presentation {
+    font-weight: 400;
+    font-size: 1.3em;
+    padding: 20px 0;
 }
